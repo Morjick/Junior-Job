@@ -1,0 +1,11 @@
+.ui-input {
+  border: 1px solid $border-color;
+  padding: 13px 18px;
+  color: $primery-color;
+  border-radius: 20px;
+
+  &::placeholder {
+    color: $primery-color;
+    opacity: 1;
+  }
+}

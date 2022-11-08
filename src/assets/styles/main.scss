@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+$main-color: #2C1B47;
+$primery-color: #AAA2D8;
+$main-light: #fff;
+$border-color: #A27EB8;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Marmelad', sans-serif;
+  font-style: normal;
+  outline: none;
+  color: $main-color;
+}
+
+.page-content {
+  max-width: 390px;
+  margin: 120px auto 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button-container {
+  margin: 15px auto;
+  text-align: center;
+
+  button {
+    margin-bottom: 15px;
+  }
+}
+
+
+@import './pages/pages';
+@import './ui/ui';
+@import './global/layouts';

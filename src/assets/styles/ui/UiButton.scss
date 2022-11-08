@@ -1,0 +1,52 @@
+button {
+  border: none;
+  background: none;
+  outline: none;
+  text-align: center;
+}
+
+.ui-button {
+  min-width: 200px;
+  max-width: 280px;
+  width: 100%;
+
+  border: none;
+  outline: none;
+
+  padding: 16px 20px;
+  background: $primery-color;
+  color: $main-light;
+  border-radius: 30px;
+
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 31px;
+
+  cursor: pointer;
+}
+
+a.ui-button {  
+  min-width: 200px;
+  max-width: 280px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: $primery-color;
+  border-radius: 30px;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+
+  button {
+    padding: 16px 20px;
+    color: $main-light;
+    border-radius: 30px;
+
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 31px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
