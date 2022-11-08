@@ -90,4 +90,8 @@
   border-radius: 30px;
   resize: none;
   height: 287px;
+  &::placeholder
+  {
+    color: $primery-color;
+  }
 }
